@@ -296,3 +296,127 @@ De que forma você, como Scrum Master, poderia transformar o seguinte impediment
 Talvez um Scrum Master possa fazer um acordo de como serão as comunicações entre projeto e infra para que, na próxima ocasião, fique claro para ambos os times como fazer o pedido, com qual antecedência e o que esperar uns dos outros.
 
 ---
+
+## Product Owner
+
+### Papéis: Product Owner (P.O)
+
+Agora que já vimos os timeboxes e artefatos do Scrum, também já falamos um bocado da atuação de cada um dos três papéis que pessoas desenvolvem no Scrum. Nessa e nas próximas sessões, faremos uma grande revisão e consolidação do conhecimento já visto até agora, focando nos papéis do Scrum.
+
+Certamente, o papel mais comentado nas sessões anteriores é o do Product Owner. Essa terminologia é bastante expressiva e, até por isso, acabou sendo utilizada informalmente mesmo em equipes que não trabalham com Scrum, mas cuidado para não entendê-la errado: quando trabalhamos com métodos ágeis o time todo se sente responsável pelo produto que está sendo produzido e o cliente se interessa por ele, portanto a palavra Owner do nome do papel não exime o resto do time dessa responsabilidade. O P.O. é, no entanto, o dono do Product Backlog.
+
+### O dia-a-dia de um Product Owner
+
+Durante o andamento do projeto que usa Scrum, o Product Owner (P.O.) deve:
+
+-  participar das reuniões;
+-  responder dúvidas dos desenvolvedores sobre histórias ou indicar quem poderia respondê-las melhor;
+-  deixar claro para o time qual o valor de negócios de cada Sprint;
+-  obter feedback e expectativas dos diversos clientes e extrair delas as necessidades;
+   manter o Product Backlog atualizado, isto é:
+   -  adicionar itens novos;
+      -  remover itens desatualizados;
+      -  revisar a priorização do backlog constantemente;
+      -  refinar histórias mais importantes em preparação para o próximo Planning.
+
+### Refinamento do backlog
+
+Uma dúvida frequente é o que o P.O. faz durante a maior parte da Sprint, quando os desenvolvedores estão trabalhando em incrementos de software. Há várias atividades listadas acima que tornam a disponibilidade diária do P.O. como para tirar dúvidas, repriorizar o Sprint backlog conforme necessidade, etc. Conforme o time amadurece e aprende a lidar consigo mesmo e com a organização, no entanto, é comum que esses trabalhos diminuam consideravelmente.
+
+Algo que não diminui tanto, contudo, é o refinamento do topo do Product Backlog.
+
+Vimos que, para que o planejamento de uma Sprint caiba nos 5% da duração da Sprint, é preciso que o P.O. saiba explicar histórias e que elas estejam em uma granularidade (tamanho) adequado para desenvolvedores conseguirem estimá-las. Portanto, para o próximo Planning correr bem, o P.O. já começa a se preparar para a reunião refinando os itens mais prioritários do Product Backlog, isto é, quebrando eles nas menores histórias possíveis e fazendo perguntas relevantes aos clientes.
+
+Pense que a segunda história mais importante de nosso Backlog é a seguinte:
+
+```
+Opção de boleto
+
+**Para...** atender aos pedidos de 15 pessoas que foram na conferência ano passado
+**No papel de...** organização da Agile Brazil
+**Quero...** oferecer a opção de pagamento em boleto no site e controlar as inscrições feitas com essa forma de pagamento no sistema.
+```
+
+Essa simples história já poderia ser quebrada em pelo menos duas menores, que individualmente já agregam valor para papéis diferentes e nem mesmo precisam ser feitos no mesmo Sprint!
+
+```
+Inscrição em boleto
+
+**Para...** conseguir pagar minha inscrição no caixa eletrônico do meu banco
+**No papel de...** participante da Agile Brazil
+**Quero...** escolher pagar minha inscrição em boleto e emití-lo direto da próxima página
+```
+
+E, também:
+
+```
+Pagamentos de boleto
+
+**Para...** não vender mais ingressos do que devia, nem menos do que podia
+**No papel de...** organizador da Agile Brazil
+**Quero...** reservar vagas na conferência quando alguém gerar um boleto e, ou criar a inscrição quando receber a confirmação do pagamento do gateway, ou abrir a vaga para vendas novamente, quando o boleto vencer sem ser pago.
+```
+
+Note que, graças ao refinamento, foi preciso perguntar melhor os porquês daquela história original e o que exatamente está sendo pedido. Assim, será mais fácil gerenciar essas histórias no Planning Meeting que está por vir.
+
+### Uma pessoa só!
+
+Outra informação importante sobre o P.O. é que ele é uma pessoa, não um comitê. A razão para isso é bastante simples: o time precisa saber quem está no comando do que será feito e, se tivéssemos diversos P.O.s correríamos um maior risco de informações conflitantes atrapalharem o time.
+
+Assim, consideramos essas várias pessoas como clientes e tanto elas quanto o time podem influenciar o P.O., mas a palavra final e o plano de como maximizar o valor entregue pelo time é do Product Owner.
+
+---
+
+## Desenvolvedores
+
+### Papéis: Desenvolvedor
+
+Enquanto em ambientes mais tradicionais os executores das tarefas apenas fazem o trabalho que lhes é atribuido, tentando respeitar os prazos já decididos por eles e da forma como alguém definiu... essa não é nossa realidade em times ágeis.
+
+Como vimos nos capítulos anteriores, desenvolvedores discutem histórias tecnicamente, estimam o esforço para fazê-las e negociam o que cabe na Sprint durante o planning. Daí, nos daily scrums, eles decidem qual tarefa vão pegar para si, considerando o resultado esperado da Sprint.
+
+A vida dos desenvolvedores dentro de um ambiente ágil é mais complexa do que em um ambiente tradicional, onde eles podem apenas seguir ordens e já fazem seu trabalho. Ao mesmo tempo, as possibilidades de crescimento pessoal aqui são muitas e a autonomia dada a esse grupo é muito interessante, especialmente dado que tratamos aqui com trabalhadores do conhecimento. Em um time ágil, há espaço para criatividade no desenvolvimento.
+
+Em resumo, no dia-a-dia dos desenvolvedores em times ágeis...
+
+### Desenvolvedores devem:
+
+-  Decidir a abordagem técnica para os problemas apresentados;
+-  Trocar informações e ajudar os companheiros de time;
+-  Estimar as histórias durante o planning;
+-  Escolher sua próxima tarefa a ser feita, considerando as prioridades da Sprint;
+-  Buscar a qualidade do projeto e a redução de erros.
+
+### E desenvolvedores não devem:
+
+-  Considerar dúvidas técnicas como impedimentos - elas são apenas problemas;
+-  Esperar que alguém decida as atividades a serem feitas por eles;
+-  Se recusar a aprender um pouco sobre outras áreas de desenvolvimento.
+
+---
+
+## O time todo
+
+### Papéis: time todo
+
+Vimos anteriormente que há atividades e responsabilidades que são específicas para P.O., Scrum Master ou desenvolvedores. Há também as que são responsabilidade do time como um todo.
+
+Poderíamos citar aqui diversos itens: participar das reuniões, definir e executar ações das retrospectivas, criar e manter uma definição de pronto clara para todos, definir a duração da Sprint, manter o ambiente do time organizado e informativo, identificar necessidades de estudo, contratação, etc.
+
+Poderíamos também dar dois passos para trás e olhar para essas ações de uma forma mais sistêmica e simplificar essa enorme lista em apenas um termo: o time é responsável por sua própria Melhoria contínua. E é por conta disso que lemos nos princípios ágeis que "As melhores arquiteturas, requisitos e design emergem de times auto-organizados."
+
+### Uma única restrição
+
+Os papéis de Scrum Master e Product Owner têm funções complementares em um time de Scrum e provêm uma dualidade saudável, que incentiva melhorias no processo e no produto em desenvolvimento. Quando uma pessoa acumula as duas funções, a tendência é que uma delas seja deixada de lado e que o Scrum se desbalanceie.
+
+Isso não quer dizer que eles devem batalhar um contra o outro no dia-a-dia, mas sim que devem manter em mente o que favorece cada parte e achar, junto aos desenvolvedores, um estado que agrada ao time todo e favorece a entrega de valor para o cliente sem perder qualidade de vida para o time.
+
+Muitas vezes ouvimos sobre o confronto ::Scrum Master x Product Owner::, mas é importante que não se leve essa palavra ao pé da letra. É meramente uma questão de acúmulo de funções e, se há mais o que fazer do que uma pessoa consegue, ela tende a abandonar um dos lados, ou a sacrificar sua própria qualidade de vida no processo.
+
+Tanto P.O. quanto Scrum Master, contudo, podem ser também desenvolvedores, já que desenvolvedores são um grupo. Assim, ele pode se dedicar ao desenvolvimento após terminar suas tarefas do papel específico que ocupa. Nesse caso, é recomendado que as pessoas que ocupam outros papéis além de desenvolvedores não se comprometam em fazer tarefas grandes ou que não possam ser facilmente transferidas para outra pessoa, caso surja alguma atividade do seu papel principal.
+
+### Melhoria contínua
+
+Qualquer ponto que causa dor ao time no momento é uma oportunidade de melhoria para o futuro -- e é um treino contínuo enxergar problemas como oportunidades.
+
+Melhoria contínua é também, na minha opinião, uma forma de pensar que nos torna mais responsáveis pelo estado em que nos encontramos no momento. É uma responsabilização que ajuda a sair do hábito de reclamar e procurar culpados. E é algo que pode ser levado para outros aspectos da vida facilmente.
