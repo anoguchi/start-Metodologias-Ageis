@@ -36,7 +36,7 @@ Uma delas é a Matriz de Eisenhower, um jeito fácil de definir como priorizar s
 
 Como funciona a Matriz de Eisenhower?
 
-![matriz de Eisenhower](/images/matriz_agil.png)
+![matriz de Eisenhower](./images/matriz_agil.png)
 
 A ideia é que todas as suas tarefas possam ser distribuídas em quadrantes, divididas em dois eixos: Importância e Urgência. Esses quadrantes recebem um valor de 1 a 4 baseado em sua prioridade.
 
